@@ -1,0 +1,89 @@
+#header-primary {
+  position : absolute;
+  width    : 100%;
+  z-index  : 1;
+
+  nav.navbar {
+    padding : 1rem 2rem;
+  }
+}
+
+#primary-nav {
+  justify-content : flex-end;
+
+  li {
+
+    &:last-of-type {
+
+      a {
+        padding-right : 0;
+      }
+    }
+  }
+
+  a {
+    @extend %all-caps;
+    padding-left  : 2rem;
+    padding-right : 2rem;
+    color         : $white;
+  }
+}
+
+h2 {
+  font-weight    : bold;
+  font-size      : 1.5rem;
+  line-height    : 1.4em;
+  padding-bottom : 1.5rem;
+  margin-bottom  : 1.5rem;
+  position       : relative;
+  text-align     : center;
+
+  &:after {
+    content          : "";
+    display          : block;
+    position         : absolute;
+    width            : 1.5rem;
+    height           : 2px;
+    background-color : $lyrical-science-highlight;
+    bottom           : 0;
+    left             : 50%;
+    transform        : translateX(-50%);
+  }
+}
+
+h3 {
+  color         : $lyrical-science-light;
+  font-weight   : normal;
+  font-size     : 1.5rem;
+  line-height   : 1.4em;
+  margin-bottom : 1.5rem;
+}
+
+h4 {
+  font-weight   : bold;
+  font-size     : 1.25rem;
+  line-height   : 1.4em;
+  margin-bottom : 1rem;
+}
+
+h5 {
+  color         : $lyrical-science-light;
+  font-weight   : normal;
+  font-size     : 1.25rem;
+  line-height   : 1.4em;
+  margin-bottom : 1rem;
+}
+
+p {
+  font-size   : 1rem;
+  line-height : 1.4em;
+  color       : $lyrical-science-light;
+
+  &:last-of-type {
+    margin-bottom : 0;
+  }
+}
+
+#footer-primary {
+  
+}

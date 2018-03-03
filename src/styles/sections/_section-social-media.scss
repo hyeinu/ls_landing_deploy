@@ -1,0 +1,33 @@
+section.section--social-media {
+  padding-top      : 2rem;
+  padding-bottom   : 2rem;
+  background-color : $grey-98;
+  overflow         : hidden;
+
+  .col {
+    display     : flex;
+    align-items : center;
+  }
+
+  h2 {
+    flex-shrink    : 0;
+    padding-right  : 2rem;
+    margin-right   : 2rem;
+    border-right   : 2px solid $lyrical-science-dark;
+    margin-bottom  : 0;
+    padding-bottom : 0;
+
+    &:after {
+      display : none;
+    }
+  }
+
+  .social-media-feed {
+    flex-grow   : 0;
+    flex-shrink : 1;
+
+    div {
+      overflow : hidden;
+    }
+  }
+}

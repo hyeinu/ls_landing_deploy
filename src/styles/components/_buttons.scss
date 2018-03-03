@@ -1,0 +1,20 @@
+.button {
+  cursor : pointer;
+  border : 0;
+}
+
+.button--cta {
+  @extend %all-caps;
+  padding          : 0.75rem 1.5rem;
+  background-color : $white;
+  border-radius    : 1.5rem;
+}
+
+.button--primary {
+  @extend %all-caps;
+  font-weight      : bold;
+  background-color : $lyrical-science-highlight;
+  color            : $white;
+  padding          : 0.5rem 1rem;
+  border-radius    : 5px;
+}

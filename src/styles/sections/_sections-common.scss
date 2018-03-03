@@ -1,0 +1,13 @@
+section.section {
+  position       : relative;
+  padding-top    : 5rem;
+  padding-bottom : 5rem;
+
+  .row {
+    margin-bottom : 2.5rem;
+
+    &:last-of-type {
+      margin-bottom : 0;
+    }
+  }
+}

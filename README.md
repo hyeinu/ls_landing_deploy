@@ -1,1 +1,1 @@
-# ls-landing
+Lyrical Science landing page

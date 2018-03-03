@@ -1,0 +1,23 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~slick-carousel/slick/slick.scss';
+
+// Common
+@import 'common/variables';
+@import 'common/fonts';
+@import 'common/placeholders';
+@import 'common/global';
+
+// Components
+@import 'components/buttons';
+
+// Sections
+@import 'sections/sections-common';
+@import 'sections/section-featured-scientists';
+@import 'sections/section-hero';
+@import 'sections/section-introduction';
+@import 'sections/section-newsletter';
+@import 'sections/section-social-media';
+@import 'sections/section-testimonials';
+
+// Cards
+@import 'cards/cards-common';

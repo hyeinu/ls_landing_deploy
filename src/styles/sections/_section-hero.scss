@@ -1,0 +1,27 @@
+section.section--hero {
+  background-color    : $lyrical-science-dark;
+  min-height          : 100vh;
+  display             : flex;
+  align-items         : center;
+  background-image    : url('/dist/images/lyrical-science-hero.jpeg');
+  background-size     : cover;
+  background-position : center center;
+  padding-top         : 0;
+  padding-bottom      : 0;
+
+  h1 {
+    color      : $white;
+    text-align : center;
+  }
+
+  .container--cta {
+    position : absolute;
+    bottom   : 5rem;
+    left     : 0;
+    right    : 0;
+
+    .col {
+      text-align : center;
+    }
+  }
+}
