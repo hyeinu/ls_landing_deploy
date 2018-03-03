@@ -1,9 +1,43 @@
 section.section--introduction {
   text-align : center;
 
-  img {
-    width         : 60px;
+  svg {
+    width         : 50px;
     height        : auto;
     margin-bottom : 1rem;
+  }
+
+  .row {
+
+    > div {
+
+      &:nth-of-type(1) {
+
+        #beaker-color {
+          fill : #824396 !important;
+        }
+      }
+
+      &:nth-of-type(2) {
+
+        #beaker-color {
+          fill : #428f93 !important;
+        }
+      }
+
+      &:nth-of-type(3) {
+
+        #beaker-color {
+          fill : #569342 !important;
+        }
+      }
+
+      &:nth-of-type(4) {
+
+        #beaker-color {
+          fill : #9b9b4b !important;
+        }
+      }
+    }
   }
 }

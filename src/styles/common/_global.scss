@@ -6,6 +6,10 @@
   nav.navbar {
     padding : 1rem 2rem;
   }
+
+  svg {
+    width : 300px;
+  }
 }
 
 #primary-nav {
@@ -85,5 +89,40 @@ p {
 }
 
 #footer-primary {
-  
+
+  .row {
+    justify-content : center;
+  }
+
+  #footer-nav {
+
+    a {
+      color : $lyrical-science-light;
+    }
+  }
+
+  .container-fluid {
+
+    .row {
+      padding : 1rem;
+    }
+
+    .col {
+      display         : flex;
+      align-items     : center;
+      justify-content : center;
+      flex-direction  : column;
+    }
+  }
+
+  svg {
+    width         : 300px;
+    margin-bottom : 1rem;
+
+    circle,
+    polygon,
+    path {
+      fill : $lyrical-science-dark !important;
+    }
+  }
 }
