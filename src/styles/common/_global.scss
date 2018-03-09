@@ -101,6 +101,25 @@ p {
     }
   }
 
+  .navbar-nav {
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    flex-direction  : row;
+
+    @media screen and (max-width : 768px) {
+      flex-direction : column;
+    }
+
+    a {
+      padding : 1rem;
+
+      @media screen and (max-width : 768px) {
+        padding : 0.5rem;
+      }
+    }
+  }
+
   .container-fluid {
 
     .row {

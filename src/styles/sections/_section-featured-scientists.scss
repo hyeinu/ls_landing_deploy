@@ -3,6 +3,9 @@ section.section--featured-scientists {
   .scientists {
     align-items : stretch;
 
+    > div {
+      margin-bottom : 1rem;
+    }
   }
 
   .card {

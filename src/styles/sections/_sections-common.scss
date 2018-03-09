@@ -3,6 +3,11 @@ section.section {
   padding-top    : 5rem;
   padding-bottom : 5rem;
 
+  @media screen and (max-width : 768px) {
+    padding-top    : 2.5rem;
+    padding-bottom : 2.5rem;
+  }
+
   .row {
     margin-bottom : 2.5rem;
 

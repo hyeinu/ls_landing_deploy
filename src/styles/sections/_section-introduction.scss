@@ -2,7 +2,7 @@ section.section--introduction {
   text-align : center;
 
   svg {
-    width         : 50px;
+    width         : 55px;
     height        : auto;
     margin-bottom : 1rem;
   }
@@ -39,5 +39,13 @@ section.section--introduction {
         }
       }
     }
+  }
+
+  h4 {
+    text-align : left;
+  }
+
+  h5 {
+    text-align : left;
   }
 }
