@@ -1,6 +1,6 @@
 section.section--social-media {
-  padding-top      : 2rem;
-  padding-bottom   : 2rem;
+  padding-top      : 1.5rem;
+  padding-bottom   : 1.5rem;
   background-color : $grey-98;
   overflow         : hidden;
 
@@ -35,12 +35,23 @@ section.section--social-media {
 
     ul {
       display         : flex;
+      justify-content : center;
       list-style-type : none;
       margin          : 0;
       padding         : 0;
 
       @media screen and (max-width : 768px) {
         justify-content : center;
+      }
+
+      li {
+        
+        &:last-of-type {
+
+          a {
+            margin-right : 0;
+          }
+        }
       }
 
       a {

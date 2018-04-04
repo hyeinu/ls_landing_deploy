@@ -48,7 +48,7 @@ h2 {
     position         : absolute;
     width            : 1.5rem;
     height           : 2px;
-    background-color : $lyrical-science-highlight;
+    background-color : $black;
     bottom           : 0;
     left             : 50%;
     transform        : translateX(-50%);
@@ -58,7 +58,7 @@ h2 {
 h3 {
   color         : $lyrical-science-light;
   font-weight   : normal;
-  font-size     : 1.5rem;
+  font-size     : 1.25rem;
   line-height   : 1.4em;
   margin-bottom : 1.5rem;
 }
@@ -79,7 +79,6 @@ h5 {
 }
 
 p {
-  font-size   : 1rem;
   line-height : 1.4em;
   color       : $lyrical-science-light;
 
@@ -89,6 +88,8 @@ p {
 }
 
 #footer-primary {
+  margin-top       : 5rem;
+  background-color : $ls-dark-blue;
 
   .row {
     justify-content : center;
@@ -97,7 +98,7 @@ p {
   #footer-nav {
 
     a {
-      color : $lyrical-science-light;
+      color : $white;
     }
   }
 
@@ -123,7 +124,7 @@ p {
   .container-fluid {
 
     .row {
-      padding : 1rem;
+      padding : 0 1rem 1rem 1rem;
     }
 
     .col {
@@ -141,7 +142,11 @@ p {
     circle,
     polygon,
     path {
-      fill : $lyrical-science-dark !important;
+      fill : $white !important;
     }
+  }
+
+  p {
+    color : $white;
   }
 }

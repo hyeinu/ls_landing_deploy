@@ -13,6 +13,7 @@ mix.js('src/scripts/main.js', '')
             'src/scripts/**/*.js',
             'src/styles/**/*.scss',
             'src/scripts/**/*.vue',
+            '*.html'
         ],
         notify: false,
     });

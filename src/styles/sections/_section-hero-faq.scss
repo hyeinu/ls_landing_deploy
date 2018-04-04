@@ -1,9 +1,9 @@
-section.section--hero {
+section.section--hero-faq {
   background-color    : $lyrical-science-dark;
   min-height          : calc(100vh - 135px);
   display             : flex;
   align-items         : center;
-  background-image    : url('/dist/images/lyrical-science-hero.jpg');
+  background-image    : url('/dist/images/hero-faq.jpg');
   background-size     : cover;
   background-position : center center;
   padding-top         : 0;
@@ -32,16 +32,5 @@ section.section--hero {
     text-align  : center;
     font-size   : 3rem;
     font-weight : bolder;
-  }
-
-  .container--cta {
-    position : absolute;
-    bottom   : 5rem;
-    left     : 0;
-    right    : 0;
-
-    .col {
-      text-align : center;
-    }
   }
 }

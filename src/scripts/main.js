@@ -10,6 +10,7 @@ let App = {
         this.initWebFonts();
         this.initSocialMediaFeedCarousel();
         this.initTestimonialsCarousel();
+        this.initFAQs();
     },
 
     initWebFonts() {
@@ -35,10 +36,21 @@ let App = {
     initTestimonialsCarousel() {
         $('.testimonials').slick({
             rows: 0,
-            autoplay: true,
+            autoplay: false,
             arrows: false,
+            centerMode: true,
+            infinite: true,
+            slidesToShow: 3,
         });
     },
+
+    initFAQs() {
+        let $faqs = $('.faq');
+
+        $faqs.on('click', function () {
+            $(this).toggleClass('active');
+        })
+    }
 };
 
 $('document').ready(App.init());

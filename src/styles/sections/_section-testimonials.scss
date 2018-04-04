@@ -1,5 +1,7 @@
 section.section--testimonials {
-  text-align : center;
+  text-align       : center;
+  background-color : $grey-98;
+  overflow         : hidden;
 
   p {
 
@@ -10,5 +12,40 @@ section.section--testimonials {
 
   h4 {
     margin-bottom : 0;
+  }
+
+  .testimonial {
+    padding-left  : 2rem;
+    padding-right : 2rem;
+  }
+
+  .container-fluid {
+    padding-left  : 0;
+    padding-right : 0;
+    width         : 150vw;
+    margin-left   : -25vw;
+    position      : relative;
+
+    &:before,
+    &:after {
+      display        : block;
+      content        : "";
+      position       : absolute;
+      top            : 0;
+      bottom         : 0;
+      width          : 25vw;
+      z-index        : 1000;
+      pointer-events : none;
+    }
+
+    &:before {
+      left       : 25vw;
+      background : linear-gradient(90deg, $grey-98, transparentize($grey-98, 1));
+    }
+
+    &:after {
+      right      : 25vw;
+      background : linear-gradient(-90deg, $grey-98, transparentize($grey-98, 1));
+    }
   }
 }

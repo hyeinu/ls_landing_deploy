@@ -6,6 +6,12 @@ $grey-10 : hsl(0, 0%, 10%);
 $grey-94 : hsl(0, 0%, 94%);
 $grey-98 : hsl(0, 0%, 98%);
 
+$ls-dark-blue : hsl(243, 53%, 34%);
+$ls-light-blue : hsl(238, 54%, 59%);
+$ls-red : hsl(3, 65%, 57%);
+$ls-yellow : hsl(39, 98%, 48%);
+$ls-green : hsl(72, 83%, 25%);
+
 $lyrical-science-dark : hsl(203, 25%, 14%);
 $lyrical-science-light : hsl(204, 25%, 41%);
-$lyrical-science-highlight : hsl(153, 82%, 53%);
+$lyrical-science-highlight : $ls-light-blue;
